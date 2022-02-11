@@ -6,9 +6,10 @@ Use Python3.
 
 Usage:
 
-    python diff.py -f from_schema.sql -t to_schema.sql -o my_diff.sql
+    python diff.py -f test_from_schema.sql -t test_to_schema.sql -o my_diff.sql
 
-    the output:
+The output of Test:
+
     -- del_table
     drop table del_table;
     
