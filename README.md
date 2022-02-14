@@ -6,8 +6,8 @@ Use Python3.
 
 Usage:
 
-    linux/unix: python3 diff.py -f test_from_schema.sql -t test_to_schema.sql -o my_diff.sql
-    windows   : python  diff.py -f test_from_schema.sql -t test_to_schema.sql -o my_diff.sql
+    linux:   python3 diff.py -f test_from_schema.sql -t test_to_schema.sql -o my_diff.sql
+    windows: python  diff.py -f test_from_schema.sql -t test_to_schema.sql -o my_diff.sql
 
 
 The output of Test:
