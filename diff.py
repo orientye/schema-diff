@@ -244,7 +244,7 @@ class SchemaAlters(object):
             if definition in from_column:
                 pass
             else:
-                self._record_alters("alter table `%s` add column `%s`;" % (table, to_column[definition]))
+                self._record_alters("alter table `%s` add column %s;" % (table, to_column[definition]))
 
     def _primary(self, table, from_primary, to_primary):
         if 'primary' in from_primary:
